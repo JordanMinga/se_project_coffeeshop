@@ -142,6 +142,10 @@
   list-style: none;
 }
 
+.recipes__iframe {
+  border-width: 0;
+}
+
 .recipes__video-caption {
   display: flex;
   justify-content: space-between;
