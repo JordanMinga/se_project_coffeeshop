@@ -108,19 +108,19 @@
             </li>
           </ul>
         </section>
-        <section id="form" class="form">
+        <section id="form" class="reservation">
           <h2 class="form__title">Book a table</h2>
-          <fieldset class="form__fieldset">
+          <fieldset class="form__fieldset form">
             <label for="name-input" class="form__label">Name *</label>
             <input
               type="text"
-              class="reservation__form_input"
+              class="form__input"
               placeholder="Name Surname"
               id="name-input"
               required
             />
-            <label class="form__label" for="guests-input"
-              >Number of guests *</label
+            <label class="form__label" for="guests-input">
+              Number of guests *</label
             >
             <input
               type="number"
@@ -131,14 +131,14 @@
               id="guests-input"
               required
             />
-            <label class="form__label" for="date-input">Date & Time*</label>
+            <label class="form__label" for="date-input">Date & Time *</label>
             <input
               type="Datetime-local"
               class="form__input"
               id="date-input"
               required
             />
-            <label class="form__label" for="email-input">Your Email*</label>
+            <label class="form__label" for="email-input">Your Email *</label>
             <input
               type="email"
               class="form__input"
@@ -147,9 +147,11 @@
               required
             />
             <button type="button" class="form__button">Book a table</button>
-            <label for="terms-input" class="form__label"
-              ><input type="checkbox" class="form_input" id="terms-input" /> I
-              agree with the terms of use</label
+            <label
+              for="terms-input"
+              class="form__label form__label_type_checkbox"
+              ><input type="checkbox" class="form__checkbox" id="terms-input" />
+              I agree with the terms of use</label
             >
           </fieldset>
         </section>
