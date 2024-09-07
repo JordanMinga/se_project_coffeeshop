@@ -155,3 +155,56 @@
   font-size: 20px;
   line-height: 30px;
 }
+
+.form {
+  background-color: #d9e7ff;
+  background-image: url(../images/background_reservation.svg);
+  background-size: center;
+}
+
+.form__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.form__label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__fieldset {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__input {
+  border-radius: 2px;
+}
+
+.form__button {
+  border-radius: 4px;
+  color: #fff;
+  background-color: #1878dc;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__button:hover {
+  border-radius: 4px;
+  background-color: #3f96f3;
+  transition: smooth;
+}
