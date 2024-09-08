@@ -161,15 +161,10 @@
   background-image: url(../images/background_reservation.svg);
   background-size: cover;
   padding: 100px 0 120px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
 }
 
 .form {
   max-width: 385px;
-  width: 100%;
 }
 
 .reservation__title {

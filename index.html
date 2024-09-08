@@ -109,51 +109,57 @@
           </ul>
         </section>
         <section id="reservation" class="reservation">
-          <fieldset class="reservation__fieldset form">
-            <h2 class="reservation__title">Book a table</h2>
-            <label for="name-input" class="form__label">Name *</label>
-            <input
-              type="text"
-              class="form__input"
-              placeholder="Name Surname"
-              id="name-input"
-              required
-            />
-            <label class="form__label" for="guests-input">
-              Number of guests *</label
-            >
-            <input
-              type="number"
-              class="form__input"
-              min="1"
-              max="8"
-              placeholder="1-8"
-              id="guests-input"
-              required
-            />
-            <label class="form__label" for="date-input">Date & Time *</label>
-            <input
-              type="Datetime-local"
-              class="form__input"
-              id="date-input"
-              required
-            />
-            <label class="form__label" for="email-input">Your Email *</label>
-            <input
-              type="email"
-              class="form__input"
-              placeholder="email@email.com"
-              id="email-input"
-              required
-            />
-            <button type="button" class="form__button">Book a table</button>
-            <label
-              for="terms-input"
-              class="form__label form__label_type_checkbox"
-              ><input type="checkbox" class="form__checkbox" id="terms-input" />
-              I agree with the terms of use</label
-            >
-          </fieldset>
+          <form class="reservation__form form">
+            <fieldset class="reservation__fieldset form">
+              <h2 class="reservation__title">Book a table</h2>
+              <label for="name-input" class="form__label">Name *</label>
+              <input
+                type="text"
+                class="form__input"
+                placeholder="Name Surname"
+                id="name-input"
+                required
+              />
+              <label class="form__label" for="guests-input">
+                Number of guests *</label
+              >
+              <input
+                type="number"
+                class="form__input"
+                min="1"
+                max="8"
+                placeholder="1-8"
+                id="guests-input"
+                required
+              />
+              <label class="form__label" for="date-input">Date & Time *</label>
+              <input
+                type="Datetime-local"
+                class="form__input"
+                id="date-input"
+                required
+              />
+              <label class="form__label" for="email-input">Your Email *</label>
+              <input
+                type="email"
+                class="form__input"
+                placeholder="email@email.com"
+                id="email-input"
+                required
+              />
+              <button type="button" class="form__button">Book a table</button>
+              <label
+                for="terms-input"
+                class="form__label form__label_type_checkbox"
+                ><input
+                  type="checkbox"
+                  class="form__checkbox"
+                  id="terms-input"
+                />
+                I agree with the terms of use</label
+              >
+            </fieldset>
+          </form>
         </section>
         <section id="menu" class="menu">Menu</section>
         <section id="contacts" class="about">About</section>
