@@ -21,6 +21,10 @@
   color: #000;
 }
 
+.nav__link:hover {
+  opacity: 0.5;
+  transition: opacity 0.5s;
+}
 .nav__logo {
   max-width: 105px;
   max-height: 39px;

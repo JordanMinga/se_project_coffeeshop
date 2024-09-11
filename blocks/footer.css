@@ -59,6 +59,11 @@
   align-items: center;
 }
 
+.footer__social-link:hover {
+  opacity: 0.7;
+  transition: opacity 0.5s;
+}
+
 .footer__copyright {
   font-family: "Inter";
   font-style: normal;
