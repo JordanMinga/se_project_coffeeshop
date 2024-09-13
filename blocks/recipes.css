@@ -30,14 +30,16 @@
 .recipes__videos {
   display: flex;
   justify-content: center;
-  gap: 100px;
+  gap: 40px;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .recipes__iframe {
   border-width: 0;
-  width="560"
-  height="315"
+  width: 560px;
+  height: 315px;
 }
 
 .recipes__video-caption {
@@ -48,4 +50,6 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
+  margin: 0;
+  padding: 0;
 }
