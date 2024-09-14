@@ -16,6 +16,7 @@
   right: 5px;
   width: 646px;
   height: 568px;
+  z-index: 0;
 }
 
 .header__title {
@@ -27,6 +28,7 @@
   line-height: 72px;
   letter-spacing: -0.6px;
   max-width: 729px;
+  z-index: 1;
 }
 
 .header__span-accent {
@@ -35,6 +37,7 @@
   font-style: italic;
   font-weight: normal;
   color: #3f96f3;
+  z-index: 1;
 }
 
 .header__description {
@@ -45,6 +48,7 @@
   line-height: 30px;
   margin: 28px 0 0;
   max-width: 683px;
+  z-index: 1;
 }
 
 .header__paragraph {
@@ -55,6 +59,7 @@
   line-height: 20px;
   color: #6f6f6f;
   margin: 0;
+  z-index: 1;
 }
 
 .header__footer {
